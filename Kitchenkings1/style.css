@@ -1,0 +1,308 @@
+@import url('https://fonts.googlepis.com/css?family=Roboto+Condensed');
+*
+{
+     margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#fff,#0211D7,#0305D5);
+    padding: 0 !important; 
+}
+.navbar-brand img
+{
+    height: 50px;
+    width: 120px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: red!important;
+    font-weight: 600;
+    float: right;
+    text-align: left''
+}
+.fa-bars
+{
+    color: red;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*---------------------------------------------------------------------*/
+#banner
+{
+        background-image: linear-gradient(to right,#fff);
+        color: #DF0213;
+        padding-top: 2%;
+        padding-bottom: 5%;
+}
+.promo-title
+{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+/*----------------------------Slider-----------------------------------------*/
+.slider
+{
+    margin: 2% auto;
+}
+/*---------------------------------------------------------------*/
+/*--------Services section--------------*/
+
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.container h4
+{
+    font-family: sans-serif;
+    color: darkblue;
+}
+.services 
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#668cff,#ff99bb,#e6ffff);
+}
+
+
+/*----------------------------------------------------*/
+/*----------Social media-------------------*/
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+
+/*----------Social media-------------------*/
+
+#footer
+{
+   background-image: linear-gradient(to right,#fff,#0211D7,#0305D5);
+        color: #DF0213;
+}
+.footer-img
+{
+ width: 100%;   
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+   height: 10px;
+    width: 120px;
+    padding-left: 0px;
+}
+.btn-con
+{
+    padding: 2px;
+    width:40px;
+    color: aliceblue;
+}
+
+/*----------------footer-------------*/
+
+footer
+{
+    background-image: linear-gradient(to right,#fff,#0211D7,#0305D5);
+        color: #DF0213;
+}
+.foot-container
+{
+    
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;  
+}
+.foot-container img
+{
+ height: 50px;
+    width: 120px;
+    padding-left: 20px;   
+}
+
+.logo
+{
+    width: 180px;
+}
+.right-col h1
+{
+    font-size: 30px;
+}
+.border
+{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+}
+.eventupdates
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.txtb
+{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 18px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+.btn
+{
+    
+    padding: 18px 40px;
+    font-size: 18px;
+    color: #f1f1f1;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px; 
+    cursor: pointer;
+    transition: opacity .3s linear;   
+}
+
+.btn:hover
+{
+    opacity: .7;
+}
+/*--------------Contact me----------------------*/
+/*-------------------about me section-----------------------*/
+
+#about-me
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-me ul li
+{
+    margin 10px 0;
+}
+#about-me ul
+{
+    margin-left: 20px;
+}
+.img-fluid
+{
+    width: 400px;
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

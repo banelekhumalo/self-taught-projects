@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500;900&display=swap');
+
+
+:root
+{
+    --light-gray:#2b3O32a1;
+    --primary-color:#FFD700;
+    --border:#2b303218;
+    --text-color:#000;
+    --inconsolata:"Inconsolata",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+
+.primary-color{
+    background-color: var(--primary-color);
+}
+.bg-primary-color{
+    background-color: var(--primary-color)!importanr
+}
+.text-color{
+    color: var(--text-color);
+}
+.font-inconsolata{
+    font-family: var(--inconsolata);
+}
+.gold
+{
+    color: gold;
+}
+
+/*header*/
+header
+{
+    background-color: gold;
+    font-family: var(--inconsolata);
+}
+
+
+header .site-title{
+    color: #fff;
+    font-family: var(--gugi);
+}
+.contianer .dropdown-toggle, .cortainer .dropdown-item
+{
+    font-size: 0.9em;
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: black;
+    
+}
+.slider
+{
+    margin: 2% auto;
+}
+/*nAVIGATION MENU*/
+
+.navbar-nav
+{
+    padding: 0.8em 0em;
+}
+.navbar-nav .nav-link
+{
+    font-size: 0.9em;
+    color:var(--light-gray)!important;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+/*----------Social media-------------------*/
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*-----------------------------------*/
+.siya img
+{
+    width: 300px;
+    height: 200px;
+    align-content: center;
+    
+}
+
+
+/*------------------------------------*/
+#about-me
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-me ul li
+{
+    margin 10px 0;
+}
+#about-me ul
+{
+    margin-left: 20px;
+}
+.img-fluid
+{
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+
+

@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#668cff,#ff99bb,#e6ffff);
+    padding: 0 !important;
+    
+}
+.navbar-brand img
+{
+    height: 45px;
+    padding-left: 30px;
+ 
+}
+
+.navbar-nav li
+{  
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #800000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+   
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*------------------------Banner-------------------------------------*/
+
+#banner
+{
+     background-image: linear-gradient(to right,#668cff,#ff99bb,#e6ffff);
+    color: #800000;
+    padding: 0 !important;
+    padding-top: 2%;
+}
+/*--------Slider--------------------------*/
+.slider
+{
+    margin: 2% auto;
+}
+
+/*--------Services section--------------*/
+
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.container h4
+{
+    font-family: sans-serif;
+    color: darkblue;
+}
+.services 
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#668cff,#ff99bb,#e6ffff);
+}
+
+
+/*-------------------about me section-----------------------*/
+
+#about-me
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-me ul li
+{
+    margin 10px 0;
+}
+#about-me ul
+{
+    margin-left: 20px;
+}
+.img-fluid
+{
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+/*----------Social media-------------------*/
+
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+
+/*----------Social media-------------------*/
+
+#footer
+{
+  background-image: linear-gradient(to right,#668cff,#ff99bb,#e6ffff);
+     color: #800000;
+}
+.footer-img
+{
+ width: 100%;   
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width 12px;
+    margin-bottom: 20px;
+}
+.btn-con
+{
+    padding: 2px;
+    width:40px;
+    color: aliceblue;
+}
+
+
+/*----------Contact style-------------------*/
+.main
+{
+    margin: 1% 0;
+}
+.main h3
+{
+    color: #80000;
+}
+
+.media
+{
+    width: 23%;
+    border:0px;
+    margin: 1%;
+    
+  
+}
+
+/*----------Canny-------------------*/
+.canny
+{
+    margin: 1px;
+    padding: 1px;
+      text-align: center;
+    color: blue;
+    font-size: 23px;
+}
+.canny img
+{
+    width: 23%;
+  
+}
+.canny img
+{
+    width: 20%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
